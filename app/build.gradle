@@ -12,6 +12,7 @@ android {
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -32,6 +33,7 @@ dependencies {
 
     //Core Android
     implementation "androidx.appcompat:appcompat:$ver_appcompat"
+    implementation "androidx.legacy:legacy-support-v4:1.0.0"
     implementation "com.google.android.material:material:$ver_com_google"
     implementation "androidx.constraintlayout:constraintlayout:1.1.3"
 
