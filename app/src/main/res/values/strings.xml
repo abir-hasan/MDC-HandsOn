@@ -9,4 +9,8 @@
     <string name="shr_button_next">Next</string>
     <string name="shr_button_cancel">Cancel</string>
     <string name="shr_error_password">Atleast 8 characters required</string>
+    <string name="shr_search_title">Title</string>
+    <string name="shr_filter_title">filter</string>
+    <string name="shr_product_title">Product Title</string>
+    <string name="shr_product_description">Description Text</string>
 </resources>
