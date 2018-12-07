@@ -1,4 +1,4 @@
-package com.example.abirhasan.mdc_handson
+package com.example.abirhasan.mdc_handson.fragment
 
 import android.os.Bundle
 import android.view.*
@@ -6,6 +6,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.abirhasan.mdc_handson.adapters.ProductCardRecyclerViewAdapter
+import com.example.abirhasan.mdc_handson.models.ProductEntry
+import com.example.abirhasan.mdc_handson.R
 import kotlinx.android.synthetic.main.fragment_product_grid.view.*
 
 class ProductGridFragment : Fragment() {
@@ -42,6 +45,5 @@ class ProductGridFragment : Fragment() {
         menuInflater!!.inflate(R.menu.shr_toolbar_menu, menu)
         super.onCreateOptionsMenu(menu, menuInflater)
     }
-
 
 }

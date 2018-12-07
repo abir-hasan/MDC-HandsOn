@@ -1,8 +1,11 @@
-package com.example.abirhasan.mdc_handson
+package com.example.abirhasan.mdc_handson.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.example.abirhasan.mdc_handson.fragment.LoginFragment
+import com.example.abirhasan.mdc_handson.interfaces.NavigationHost
+import com.example.abirhasan.mdc_handson.R
 
 class LogInActivity : AppCompatActivity(), NavigationHost {
 
@@ -12,7 +15,10 @@ class LogInActivity : AppCompatActivity(), NavigationHost {
 
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
-                .add(R.id.container, LoginFragment())
+                .add(
+                    R.id.container,
+                    LoginFragment()
+                )
                 .commit()
         }
     }

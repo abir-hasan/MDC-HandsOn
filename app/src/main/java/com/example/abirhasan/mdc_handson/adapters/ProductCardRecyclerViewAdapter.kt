@@ -1,4 +1,4 @@
-package com.example.abirhasan.mdc_handson
+package com.example.abirhasan.mdc_handson.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.abirhasan.mdc_handson.models.ProductEntry
+import com.example.abirhasan.mdc_handson.R
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.shr_product_card.view.*
 
