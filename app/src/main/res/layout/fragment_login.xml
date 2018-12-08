@@ -37,16 +37,19 @@
         <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                style="@style/Widget.Shrine.TextInputLayout"
                 android:hint="@string/shr_hint_username">
 
             <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
+                    android:inputType="text"
                     android:layout_height="wrap_content"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/password_text_input"
                 android:layout_width="match_parent"
+                style="@style/Widget.Shrine.TextInputLayout"
                 android:layout_height="wrap_content"
                 app:errorEnabled="true"
                 android:hint="@string/shr_hint_password">
