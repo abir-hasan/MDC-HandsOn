@@ -9,11 +9,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        <!--style="@style/Widget.Shrine.Toolbar"-->
         <androidx.appcompat.widget.Toolbar
                 android:id="@+id/app_bar"
+                style="@style/Widget.Shrine.Toolbar"
                 android:layout_width="match_parent"
-                app:titleTextColor="@color/white"
                 app:navigationIcon="@drawable/shr_menu"
                 android:layout_height="?attr/actionBarSize"
                 app:title="@string/shr_app_name"/>
