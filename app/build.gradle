@@ -24,7 +24,7 @@ android {
 }
 
 dependencies {
-    def ver_com_google = "1.1.0-alpha01"
+    def ver_com_google = "1.1.0-alpha02"
     def ver_appcompat = "1.0.2"
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
